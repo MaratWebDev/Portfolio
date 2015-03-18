@@ -1,0 +1,66 @@
+@import "variables"; //All variables, mixins
+
+article.project {
+    max-width: 100%;
+    padding: 20px 0;
+    h3 {
+        max-width: 960px;
+        @include center-block;
+        padding: 0 20px;
+    }
+}
+    
+#about {
+   li {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    img {
+        display: block;
+        height: 90px; // maybe use max-height instead because you might easily loose image proportions this way
+        width: 80px;
+    }
+}    
+
+.project-item {
+    background: url("../img/symphony.png") repeat;
+    figure {
+        width: 50%;
+        height:inherit;
+        img {
+            width: 100%;
+        }
+    }
+    p {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        padding: 0 20px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        font-style: italic;
+    }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    @media screen and (max-width: $break-medium) {
+        justify-content: space-around;
+        figure,
+        p {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: $break-small) {
+        flex-flow: column wrap;
+        padding: 0;
+        img,
+        p {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

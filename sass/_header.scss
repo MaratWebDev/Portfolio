@@ -1,0 +1,139 @@
+@import "variables"; //All variables, mixins
+
+header, 
+footer {
+    position: relative;
+    background-color: darkgrey;
+    width: 100%;
+    color: white;
+        #logo {
+            a {
+                font-family: 'Comfortaa', cursive;
+                float: left;
+                font-weight: bold;
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        nav,
+        .nav-icon {
+            float: right;
+            img {
+                height: 20px;
+                width: 20px;
+                @media screen and (min-width: $break-large) {
+                    display: none;
+                }
+            }
+        }
+}
+
+
+nav {
+    @media screen and (max-width: $break-large) {
+        display: none;
+
+    }
+    li {
+        display: inline;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: relative;
+        bottom: -10px;
+        right: 20px;
+    }
+    a {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 15px;
+    }
+    li:hover {
+        background-color: rgba(0,0,0,.5)
+    }
+    &.active {
+        float: right;
+        display: inline-block;
+        
+        
+        a {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: $break-medium) {
+            display: block;
+            float: none;
+            width: 100%;
+            padding-top: 10px;
+            text-align: center;
+            li {
+               bottom: 0;
+                right: 0;
+            }
+        }
+        
+        @media screen and (max-width: $break-small) {
+            display: block;
+            float: none;
+            width: 100%;
+            padding-top: 10px;
+            text-align: center;
+            li {
+               bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+.header-text {
+    vertical-align: bottom;
+    text-align: center;
+    color: white;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 40px;
+    h1 {
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        line-height: 1.2;
+    }
+    p,
+    #textslider {
+        font-size: 1.2em;
+        @media screen and (max-width: $break-medium) {
+            display: none;
+        }
+        @media screen and (max-width: $break-small) {
+            display: none;
+        }
+    }
+   
+}
+
+.main-header {
+    background: url(../img/example.jpg) no-repeat 0 0 ;
+    background-size: cover;
+    height: 38%;
+    
+}
+
+
+
+

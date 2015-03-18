@@ -1,0 +1,74 @@
+@import "variables"; //All variables, mixins
+
+form {
+    display: block;
+    max-width: 100%;
+    font-size: 16px;
+    background: url("../img/symphony.png") repeat;
+    padding: 0 30px;
+    input[type=text],
+    input[type=email],
+    input[type=submit],
+    textarea,
+    fieldset {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000;
+    }
+    #form-content {
+        max-width: 960px;
+         @include center-block;
+    }
+    fieldset {
+        display:block;
+        padding: 15px;
+    }
+    span{
+        display: inline-block;
+        float: left;
+        width: 150px;
+        text-transform: uppercase;
+    }
+    input[type=text],
+    input[type=email] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px dashed #000;
+        width: 250px;
+        outline: none;
+        padding: 0px 0px 0px 0px;
+        font-style: italic;
+    }
+    textarea{
+        font-style: italic;
+        padding: 0px 0px 0px 0px;
+        background: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px dashed #000;
+        width: 275px;
+        overflow: hidden;
+        resize:none;
+        height:20px;
+    }
+    input[type=text]:focus,
+    input[type=email]:focus,
+    input[type=submit]:focus,
+    textarea:focus {
+         background-color: rgba(0,0,0,.2);
+         border-radius: 5px;
+    }
+    input[type=submit] {
+        background: #663300;
+        border: none;
+        padding: 8px 10px 8px 10px;
+        margin: 15px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        &:hover, &:focus {
+            background: darken(#663300, 5%);
+        }
+    }
+}
+

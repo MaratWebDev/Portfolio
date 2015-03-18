@@ -1,0 +1,11 @@
+$break-small: 480px;
+$break-medium: 768px;
+$break-large: 1200px;
+
+// Create a new sass partial called _variables.scss and put all the variables like widths there. Partial with variables should be imported at the beginning. 
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
