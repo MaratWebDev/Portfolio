@@ -43,9 +43,7 @@
                             <img  src="img/project_image.jpg" alt="Screenshots from project">
                         </figure>
                         <p>
-                            Website was created as my personal project to practice skills I've learned at <a href="http://teamtreehouse.com/maratfaizov">Treehouse</a>.
-                        </p>
-                        <p>
+                            Website was created as my personal project to practice skills I've learned at <a href="http://teamtreehouse.com/maratfaizov">Treehouse</a>.<br>
                             Wales By Bike is a responsive site that I built with HTML5, SASS and JavaScript/jQuery. Feel free to take a look at the code on my <a href="https://github.com/MaratWebDev/WalesByBike.git">GitHub</a> account.
                         </p>
                     </div>
