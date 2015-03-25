@@ -42,7 +42,12 @@
                         <figure>
                             <img  src="img/project_image.jpg" alt="Screenshots from project">
                         </figure>
-                        <p>"This project i used as workshop for my study course with <a href="http://teamtreehouse.com/maratfaizov"> Treehouse.com</a>. I practised skills I&prime;ve learned and implemented them here. Here you can see my progress started with HTML content of the page, styles with Sass/CSS and implementing navigation with JavaScript/JQuery. Please feel free to see the Code yourself on my <a href="https://github.com/MaratWebDev/WalesByBike.git">GitHub</a>."</p>
+                        <p>
+                            Website was created as my personal project to practice skills I've learned at <a href="http://teamtreehouse.com/maratfaizov">Treehouse</a>.
+                        </p>
+                        <p>
+                            Wales By Bike is a responsive site that I built with HTML5, SASS and JavaScript/jQuery. Feel free to take a look at the code on my <a href="https://github.com/MaratWebDev/WalesByBike.git">GitHub</a> account.
+                        </p>
                     </div>
             </article>
         </section>
