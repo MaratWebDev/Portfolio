@@ -43,8 +43,9 @@
                             <img  src="img/project_image.jpg" alt="Screenshots from project">
                         </figure>
                         <p>
-                            Website was created as my personal project to practice skills I've learned at <a href="http://teamtreehouse.com/maratfaizov">Treehouse</a>.<br>
-                            Wales By Bike is a responsive site that I built with HTML5, SASS and JavaScript/jQuery. Feel free to take a look at the code on my <a href="https://github.com/MaratWebDev/WalesByBike.git">GitHub</a> account.
+                            Wales by Bike is my personal project. I decided to create this example website to practise my front end development skills I've learned at <a href="http://teamtreehouse.com/maratfaizov">Treehouse</a>.<br>
+                            The site is responsive and built with HTML5, SCSS and jQuery. Map on the Contact page is customised using Google Maps API. Feel free to take a look at the code on my <a href="https://github.com/MaratWebDev/WalesByBike.git">GitHub</a> account.
+                            <a href="http://www.maratwebdev.com/walesbybike/">View demo</a>.
                         </p>
                     </div>
             </article>
@@ -69,7 +70,7 @@
                     </li>
                     <li>
                         <img src="img/icons/jquery.png" alt="JQuery">
-                        <strong>JQuery</strong>
+                        <strong>jQuery</strong>
                     </li>
                     <li>
                         <img src="img/icons/javascript.png" alt="JavaScript">
