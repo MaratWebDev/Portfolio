@@ -3,10 +3,9 @@
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
 
-
+@import "variables"; //All variables, mixins
 @import "header"; // header & logo styles
 @import "common"; // Styles applied to everything
 @import "projects"; //Styles added to Projects
 @import "contact"; //Added styles to Contact
 @import "footer"; //Added styles to Footer
-@import "variables"; //All variables, mixins
