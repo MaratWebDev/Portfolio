@@ -106,7 +106,7 @@
                         <h2>Let's Discuss Your Project</h2>
                     </div>    
                 </header>
-                <form method="post" name="Emailform" action="mail.html" target="_self" onSubmit="return checkemail(this)">
+                <form method="post" name="Emailform" action="mail.php" target="_self" onSubmit="return checkemail(this)">
                     <div id="form-content">
                         <fieldset>
                             <label for="name"><span>Name:</span></label> 
